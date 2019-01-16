@@ -58,5 +58,13 @@ public class StudentDemo
     public void setName(String givenName) {
         name = givenName;
     }
+
+    public String getProgram() {
+        return program;
+    }
+
+    public void setProgram(String givenProgram) {
+        program = givenProgram;
+    }
     
 }
