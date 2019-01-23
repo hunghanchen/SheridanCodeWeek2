@@ -14,6 +14,7 @@ public class StudentDemo
   private String studentID;
   private String name;
   private String program;
+  private int maxCourse = 3;
   
   /**
    * A constructor to pass in the given ID and then name
@@ -57,6 +58,14 @@ public class StudentDemo
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    public void setMaxCourse(int givenMaxCourse) {
+        maxCourse = givenMaxCourse;
     }
     
 }
